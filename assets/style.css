@@ -1,0 +1,50 @@
+:root {
+  --dark-blue: #091B6F;
+  --light-blue: #F1F3FF;   
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+nav {
+	background-color: var(--light-blue);
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+.hero {
+	height: 100vh;
+	background-color: #F1F3FF;
+}
+
+.services p {
+	font-size: 14px;
+}
+
+.cust {
+	font-size: 14px;
+}
+
+.banner {
+	background-color: var(--dark-blue);
+	color: white;
+}
+
+.card {
+	border-radius: 8px;
+}
+
+
+footer p, footer li {
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+	section, footer {
+		padding: 0px 30px;
+		margin-bottom: 0px;
+	}
+}

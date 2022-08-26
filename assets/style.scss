@@ -1,0 +1,26 @@
+$birulaut = #F1F3FF;
+
+* {
+	scroll-behavior: smooth;
+}
+
+nav {
+	background-color: $birulaut;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+.hero {
+	height: 100vh;
+	background-color: $birulaut;
+
+	h1 {
+	font-size: 36px;
+	}
+
+	p {
+	font-size: 16px;
+	}
+}
